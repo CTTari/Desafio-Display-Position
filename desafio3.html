@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 800px;
+            height: 600px;
+            position: relative;
+            margin: 20px;
+        }
+
+        .españa {
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            top: 0;
+            left: 0;
+            border-style: solid;
+            border-color: grey;
+            border-width: 1px;
+        }
+
+        .españa__rojo {
+            background-color: red;
+            width: 300px;
+            height: 200px;
+        }
+
+        .españa__amarillo {
+            position: absolute;
+            background-color: yellow;
+            width: 300px;
+            height: 100px;
+            top: 50px;
+        }
+
+        .dinamarca {
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            top: 0;
+            right: 0;
+            border-style: solid;
+            border-color: grey;
+            border-width: 1px;
+        }
+
+        .dinamarca__cuadrado {
+            width: 85.71px;
+            height: 85.71px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .dinamarca__rectangulo {
+            width: 185.72px;
+            height: 85.71px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .dinamarca__cuadrado2 {
+            width: 85.71px;
+            height: 85.71px;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        .dinamarca__rectangulo2 {
+            width: 185.72px;
+            height: 85.71px;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .dinamarca__texto {
+            position: absolute;
+            bottom: -50px;
+        }
+
+        .emiratos {
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            bottom: 50px;
+            left: 0;
+            border-style: solid;
+            border-color: grey;
+            border-width: 1px;
+        }
+
+        .emiratos__rojo {
+            position: absolute;
+            width: 75px;
+            height: 200px;
+            background-color: red;
+            left: 0;
+        }
+
+        .emiratos__verde {
+            position: absolute;
+            width: 225px;
+            height: 66.67px;
+            background-color: green;
+            top: 0;
+            right: 0;
+        }
+
+        .emiratos__negro {
+            position: absolute;
+            width: 225px;
+            height: 66.67px;
+            background-color: black;
+            bottom: 0;
+            right: 0;
+        }
+
+        .emiratos__texto {
+            position: absolute;
+            bottom: -50px;
+        }
+
+        .japon {
+            position: absolute;
+            right: 0;
+            bottom: 50px;
+        }
+
+        .japon__fondo {
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            border-style: solid;
+            border-color: grey;
+            border-width: 1px;
+        }
+
+        .japon__circulo {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            background-color: red;
+            border-radius: 100%;
+            top: 40px;
+            left: 90px;
+        }
+
+        .japon__texto {
+            position: absolute;
+            bottom: -50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="españa">
+            <div class="españa__rojo"></div>
+            <div class="españa__amarillo"></div>
+            <p>España</p>
+        </div>
+        <div class="dinamarca">
+            <div class="dinamarca__cuadrado"></div>
+            <div class="dinamarca__rectangulo"></div>
+            <div class="dinamarca__cuadrado2"></div>
+            <div class="dinamarca__rectangulo2"></div>
+            <p class="dinamarca__texto">Dinamarca</p>
+        </div>
+        <div class="emiratos">
+            <div class="emiratos__rojo"></div>
+            <div class="emiratos__verde"></div>
+            <div class="emiratos__negro"></div>
+            <p class="emiratos__texto">Emiratos Árabes</p>
+        </div>
+        <div class="japon">
+            <div class="japon__fondo"></div>
+            <div class="japon__circulo"></div>
+            <p class="japon__texto">Japón</p>
+        </div>
+    </div>
+</body>
+
+</html>
